@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #0A0A33;
+    height: 607px;
+}
+
+headers{
+    display: flex;
+    justify-content: center;
+    background-color: #0A0A33;
+    height: 80px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #0A0A33;
+    height: 500px;
+}
+
+.buttonblue{
+    background-color: rgb(62, 128, 252);
+    text-decoration: none;
+    padding: 15px 80px;
+    border-style: none;
+    
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.buttonblue a{
+    color:white;
+    font-family: arial;
+}
+
+.buttonred{
+    background-color: rgb(255, 67, 60);
+    text-decoration: none;
+    padding: 15px 60px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.buttonred a{
+    color: white;
+    font-family: arial;
+}
+
+.buttonblue:hover{
+    background-color: #0A0A33;
+    border-color: rgb(62, 128, 252);
+    border-style: solid;
+}
+
+.buttonred:hover{
+    border-color: rgb(255, 67, 60);
+    background-color: #0A0A33;
+    border-style: solid;
+}
+
+.Pricing h1{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-family: arial;
+}
+
+.Contact-Us h2{
+    margin-left: 600px;
+    font-family: arial;
+    margin-top: 200px;
+}
+
+.img{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(62, 128, 252);
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.img:hover{
+    background-color: rgb(255, 67, 60);
+}
+
+.About h2{
+    margin-left: 110px;
+    margin-top: 200px;
+    font-family: arial;
+    font-size: 30px;
+}
+
+.about-img{
+    margin-left: 700px;
+    margin-top: -280px;
+}
+
+.about-button{
+    margin-left: 110px;
+    margin-top: 30px;
+    padding: 10px 40px;
+    background-color: rgb(255, 67, 60);
+    border-style: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.about-button a{
+    color: white
+}
+
+.About p{
+    margin-top: 30px;
+    margin-left: 110px;
+    font-family: arial;
+    color:rgb(139, 139, 139);
+
+}
+
+.price{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    background-color: rgb(241, 240, 240);
+    overflow: hidden;
+    border-radius: 24px;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+.price h2{
+    margin-top: 40px;
+    font-family: arial;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price h3{
+    margin-top: 20px;
+    font-family: arial;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price h4{
+    font-family: arial;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price:hover{
+    background-color: rgb(62, 128, 252);
+    color: white;
+}
+
+.block{
+    margin-left: 525px;
+    margin-top: 30px;
+    margin-bottom: 250px;
+}
+
+.send{
+    padding: 20px 60px;
+    margin-left: 60px;
+    margin-top: 20px;
+    background-color: rgb(255, 67, 60);
+    border-style: none;
+}
+
+.send:hover{
+    background: white;
+    border-color: rgb(255, 67, 60);
+    border-style: solid;
+}
+
+.send a{
+    color: black;
+}
+
+.contacted{
+    padding: 10px 60px;
+    margin-top: 20px;
+}
+
+.contact-text{
+    padding: 30px 60px;
+    margin-top: 20px;
+}
+
+.details h2{
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: arial;
+    font-size: 20px;
+    border-style: none;
+}
+
+.button a{
+    color:rgb(62, 128, 252);
+}
+
+.product{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    background-color: rgb(241, 240, 240);
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+.top_menu li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.slide-content{
+    margin-top: 250px;
+    font-family: arial;
+    margin-left: 80px;
+}
+
+.slide-content h2{
+    font-size: 35px;
+    margin-top: -50px;
+    color: white;
+}
+
+.slide-content p{
+    margin-top: 20px;
+    color: white;
+}
+
+.slide-content button{
+    margin-top: 20px;
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 6px;
+    border-style: none;
+}
+
+.slide-content button:hover{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.slider-img{
+    margin-top:-320px;
+    margin-left: 700px;
+}
+
+.top_menu a{
+    font-family: arial;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo h1{
+    font-family: arial;
+    font-size: 25px;
+    color: white;
+    margin-right: 350px;
+    margin-top: 20px;
+}
+
+.logo, .top_menu{
+    display: inline-block;
+}
+
+.Our_Services h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: arial;
+}
+
+.footer-wrap{
+    margin-top: 50px;
+    color: white;
+    font-family: arial;
+}
+
+.footer-wrap a{
+    color: white;
+}
+
+.adress{
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    display: inline-block;
+}
+
+.adress p{
+    margin-top: 20px;
+}
+
+.adress h3{
+    margin-top: 30px;
+}
+
+.Links{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.Links p{
+    margin-top: 20px;
+}
+
+.Info{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.Info p{
+    margin-top: 20px;
+}
+
+.Subscribe{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.form-subscribe{
+    padding: 10px 40px;
+    background-color: #0A0A33;
+    border-collapse: collapse;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid white;
+}
+
+.subsbutton{
+    padding: 10px 85px;
+    margin-top: 20px;
+    background-color: rgb(255, 67, 60);
+    border-style: none;
+}
+
+.subsbutton:hover{
+    background: #0A0A33;
+    border-color: rgb(255, 67, 60);
+    border-style: solid;
+}
+
+.subsbutton a{
+    font-size: 18px;
+}
+
+.adress, .Info, .Links{
+    margin-inline: 40px;
+}
