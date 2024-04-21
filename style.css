@@ -402,6 +402,28 @@ footer{
     margin-inline: 40px;
 }
 
+@media (min-width: 300px){
+    header{
+        width: 500px;
+    }
+
+    .top_menu{
+        margin-inline: 100px;
+    }
+
+    .product{
+        margin-left: 10px;
+    }
+
+    .price{
+        margin-inline: 150px;
+    }
+
+    .footer-wrap{
+        width: 500px;
+    }
+}
+
 @media (min-width: 800px){
     header{
         width: 900px;
